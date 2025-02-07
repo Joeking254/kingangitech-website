@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 2em;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.intro {
+    margin-bottom: 2em;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+.feature {
+    background-color: #f4f4f4;
+    padding: 1em;
+    border-radius: 5px;
+    width: 30%;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    margin: 0.5em 0 0.2em 0;
+}
+
+form input {
+    margin-bottom: 1em;
+    padding: 0.5em;
+    width: 80%;
+    max-width: 300px;
+}
+
+form button {
+    padding: 0.5em 2em;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+article {
+    margin-bottom: 2em;
+}
+
+.portfolio-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+}
+
+.portfolio-item {
+    background-color: #f4f4f4;
+    padding: 1em;
+    border-radius: 5px;
+    width: 30%;
+    text-align: left;
+}
